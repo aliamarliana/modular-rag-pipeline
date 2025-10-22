@@ -71,4 +71,12 @@ def load_all_documents(data_dir: str) -> List[Any]:
                 print(f"[ERROR] Failed to load {file_path}: {e}")
 
     print(f"[INFO] ✅ Total documents loaded: {len(documents)}")
+
     return documents
+
+# Example usage (you can remove this when integrating into your RAG pipeline)
+# if __name__ == "__main__":
+#     docs = load_all_documents("data")
+#     print(f"Loaded {len(docs)} documents.")
+#     if docs:
+#         print("Example document:", docs[0])
