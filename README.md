@@ -48,17 +48,14 @@ mkdir data
 
 Then, copy your files (PDF, TXT, CSV, DOCX, JSON, Excel, etc.) into that folder:
 
+```kotlin
 data/
-
 ├── company_policy.pdf
-
 ├── sales_data.xlsx
-
 ├── notes.txt
-
 └── reports/
-    
     └── 2024_summary.docx
+```
 
 ⚠️ The pipeline will automatically read all supported files inside this folder.
 
