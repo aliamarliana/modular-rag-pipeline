@@ -57,6 +57,7 @@ data/
 ├── notes.txt
 
 └── reports/
+    
     └── 2024_summary.docx
 
 ⚠️ The pipeline will automatically read all supported files inside this folder.
